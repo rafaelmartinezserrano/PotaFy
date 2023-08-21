@@ -1,0 +1,118 @@
+@charset "UTF-8";
+.error {
+	color: red;
+	font-style: italic;
+}
+
+.cabeceraIndex img {
+	width: 40px;
+}
+
+.cabeceraIndex {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 30pt;
+	color: white;
+	background-color: black;
+	padding: 50px;
+}
+
+.cabeceraIndex h1 {
+	margin: 0px 50px;
+}
+
+.contenedorIndex {
+	margin: 50px auto;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	width: 50%;
+	box-shadow: 5px 5px 20px 10px black;
+	border-radius: 20px;
+	font-size: 24pt;
+}
+
+.contenedorIndex input {
+	font-size: 24pt;
+	margin: 10px;
+	text-align: center;
+}
+
+.contenedorIndex div {
+	display: flex;
+	flex-direction: column;
+}
+/******* FORMULARIO ********/
+.contenedorFormulario {
+	margin-top: 25px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+}
+
+.contenedorFormulario div {
+	margin: 20px;
+	font-size: 18pt;
+	font-family: Arial;
+}
+
+.contenedorFormulario input {
+	font-size: 18pt;
+}
+
+.boton {
+	font-size: 18pt;
+	background-color: black;
+	color: white;
+	padding: 15px;
+	border-radius: 40px;
+	box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+}
+
+.boton:active {
+     transform: scale(0.96);
+     box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+ }
+
+/******* LISTA DE CANCIONES *****/
+.contenedorCanciones {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.cancion {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: 20px;
+	border: solid 2px black;
+	border-radius: 40px;
+	width: 800px;
+}
+
+.tituloCancion {
+	font-family: Courier New;
+	font-size: 20pt;
+	font-weight: bolder;
+}
+
+audio::-webkit-media-controls-panel {
+     background-color: white;
+}
+
+/********** LETRA CANCION ************/
+.contenedorLetra {
+	visibility: hidden;
+	position: absolute;
+	top: 10px;
+	left: 25%;
+	width: 50%;
+	display: block;
+	border: solid 2px black;
+	border-radius: 30px;
+	background-color: white;
+	padding: 20px;
+}

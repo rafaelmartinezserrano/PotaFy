@@ -1,0 +1,69 @@
+@charset "UTF-8";
+.error {
+	color: red;
+	font-style: italic;
+}
+
+.cabecera img {
+	width: 40px;
+}
+
+.cabecera {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 30pt;
+	color: white;
+	background-color: black;
+	padding: 50px;
+}
+
+.cabecera h1 {
+	margin: 0px 50px;
+}
+
+.contenedorIndex {
+	margin: 50px auto;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	width: 50%;
+	box-shadow: 5px 5px 20px 10px black;
+	border-radius: 20px;
+	font-size: 24pt;
+}
+
+.contenedorIndex input {
+	font-size: 24pt;
+	margin: 10px;
+	text-align: center;
+}
+
+.contenedorIndex div {
+	display: flex;
+	flex-direction: column;
+}
+
+.contenedorCanciones {
+	display: flex;
+	flex-direction: column;
+}
+
+.cancion {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: 20px;
+	border: solid 2px black;
+	border-radius: 40px;
+}
+
+.tituloCancion {
+	font-family: Courier New;
+	font-size: 24pt;
+	font-weight: bolder;
+}
+
+audio::-webkit-media-controls-panel {
+     background-color: white;
+}
